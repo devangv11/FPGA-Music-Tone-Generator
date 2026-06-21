@@ -1,40 +1,40 @@
 # FPGA-Music-Tone-Generator
-Overview
+# FPGA Music Tone Generator using Verilog HDL
 
-This project implements a digital music tone generator on the Basys3 FPGA development board using Verilog HDL. Musical notes are generated through frequency synthesis techniques and played through a piezo buzzer. User inputs are provided through onboard push buttons, and the system incorporates debounce logic to ensure reliable operation.
+## Overview
+Designed and implemented a digital music generation system on the Basys3 FPGA using Verilog HDL. The project generates musical notes through frequency synthesis techniques and outputs audio through a piezo buzzer. Push-button inputs are used for note selection.
 
-Features
-
-- Digital music generation using Verilog HDL
+## Features
 - Clock division for frequency generation
 - Push-button controlled note selection
-- Debounce logic for stable input detection
-- Piezo buzzer output for audio generation
+- Debounce logic for reliable input detection
+- Piezo buzzer interface
+- Seven-segment display output
 - Hardware implementation on Basys3 FPGA
 
-Hardware Used
-
+## Hardware Used
 - Basys3 FPGA Development Board
 - Piezo Buzzer
-- Push Buttons (on-board)
 
-Software Used
-
+## Software Used
 - Xilinx Vivado
 - Verilog HDL
 
-Working Principle
+## Working Principle
+The FPGA system clock is divided to generate frequencies corresponding to musical notes. Push-button inputs are processed using debounce logic to eliminate unwanted transitions. Based on the selected input, the corresponding frequency signal is generated and sent to a piezo buzzer, producing audible musical tones.
 
-The FPGA's system clock is divided to generate frequencies corresponding to musical notes. Push-button inputs are processed through debounce circuits to eliminate switch noise. Based on the selected input, the corresponding frequency signal is generated and applied to a piezo buzzer, producing audible musical tones.
-
-Project Outcomes
-
-- Successfully implemented a hardware-based music generation system.
-- Demonstrated clock management and frequency synthesis techniques.
+## Results
+- Successfully generated musical notes on hardware.
+- Demonstrated clock division and frequency synthesis techniques.
 - Verified functionality on the Basys3 FPGA board.
 
-Repository Contents
-
+## Repository Contents
 - Project Abstract
 - Hardware Demonstration Images
+- Project Documentation
+
+## Hardware Demonstration
+
+### Basys3 FPGA Setup
+Upload screenshots/images of the implemented hardware here.
 - Project Documentation
