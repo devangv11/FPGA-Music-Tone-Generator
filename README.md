@@ -1,4 +1,3 @@
-# FPGA-Music-Tone-Generator
 # FPGA Music Tone Generator using Verilog HDL
 
 ## Overview
